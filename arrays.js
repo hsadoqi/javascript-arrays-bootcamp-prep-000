@@ -41,3 +41,10 @@ function destructivelyRemoveElementFromEndOfArray(x){
   x.pop()
   return x
 }
+
+function removeElementFromEndOfArray(x){
+  var newx = x.slice()
+  newx.pop()
+  return newx
+}
+}
