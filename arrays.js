@@ -33,5 +33,5 @@ function destructivelyRemoveElementFromBeginningOfArray(x){
 
 function removeElementFromBeginningOfArray(x){
   var newx = x.slice()
-  return newx.shift()
+  return newx.shift(1)
 }
