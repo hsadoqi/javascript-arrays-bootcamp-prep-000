@@ -47,4 +47,4 @@ function removeElementFromEndOfArray(x){
   newx.pop()
   return newx
 }
-}
+
